@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  background-color: rgba(192, 192, 192, 0.3);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+td,
+th {
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: rgba(0, 255, 255, 0.6);
+}
+
+table {
+  border-spacing: 30px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
